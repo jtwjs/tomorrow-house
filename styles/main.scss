@@ -1,5 +1,5 @@
-@import './base/fonts';
+// _를 붙이면 import한 scss 파일에 대해 별도의 컴파일하지 않고 main.scss에서 한꺼번에 style.css로 컴파일됨
 
-* {
-  font-family: 'Noto Sans KR', sans-serif;
-}
+@import './base/fonts';
+@import './base/normalize';
+@import './base/reset';
