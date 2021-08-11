@@ -1,12 +1,14 @@
 /* _를 붙이면 import한 scss 파일에 대해 별도의 컴파일하지 않고 main.scss에서 한꺼번에 style.css로 컴파일됨 */
 
-@import 'styles/constants/colors';
-@import 'styles/constants/typography';
+@import './constants/colors';
+@import './constants/typography';
+@import './constants/breakpoint';
 
 @import './base/fonts';
 @import './base/normalize';
 @import './base/reset';
 
 @import './mixins/text-style';
+@import './mixins/responsive';
 
 @import './layouts/grids';
