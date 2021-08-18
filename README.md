@@ -1,4 +1,4 @@
-# tomorrow-house
+# 오늘의 집 Clone 
 learning SCSS 🔥
 
 | Mobile | Tablet | DeskTop | class |
